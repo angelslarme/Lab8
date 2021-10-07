@@ -32,6 +32,11 @@
       set margin to 10px
       set height to 198px
      */
+     width: 220px;
+     float: left;
+     margin: 10px;
+     height: 198px;
+
   }
 
   figure {
@@ -44,6 +49,13 @@
     set padding to 9px
     align text to the left
       */
+  display: block;
+  width: 202px;
+  height: 170px;
+  background-color: #e7e3d8;
+  margin: 0px;
+  padding: 9px;
+  text-align: left;
   }
 
   figure img {
@@ -51,8 +63,11 @@
     set width 200px
     set height to 150px
     set border to 1px solid #d6d6d6;
-
-      */
+    */
+width: 200px;
+height: 150px;
+border: 1px #d6d6d6;
+  }
 
   figcaption {
     /*
@@ -60,5 +75,8 @@
     set padding-left to 20px
     set background-repeat property to no-repeat
       */
+      background-image: "../img/icon.png";
+      padding-left: 20px;
+      background-repeat: no-repeat;
 
   }
