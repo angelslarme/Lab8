@@ -10,8 +10,9 @@
 /*
 set the width of the table to 600px.
  */
-
-tr { /* SEND HELP IDK */}
+table {
+  width: 600px;
+}
 
 /*
 set the padding of table header(th) and standard cells(td) to top 7px, right 10px, bottom 10px, left 10px.
