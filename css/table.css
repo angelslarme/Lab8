@@ -30,7 +30,7 @@ th {
   set border-to to: 1px solid #999;
   align text to the center
    */
-transform: uppercase;
+text-transform: uppercase;
 letter-spacing: 0.1em;
 font-size: 90%;
 border-bottom: 2px #111111;
@@ -49,3 +49,6 @@ tr:hover {
 }
 
 /* create a rule that allighns text to the right of the of the money class  */
+.money {
+  text-align: right;
+}
