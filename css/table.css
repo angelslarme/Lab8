@@ -30,15 +30,18 @@ th {
 letter-spacing: 0.1em;
 font-size: 90%;
 border-bottom: 2px #111111;
-
+border-top: 1px #999999;
+text-align: center;
 }
 
 tr.even {
   /* set background-color to #efefef;  */
+  background-color: #efefef;
 
 }
 tr:hover {
   /* set background-color to #c3e6e5; */
+  background-color: #c3e6e5;
 }
 
 /* create a rule that allighns text to the right of the of the money class  */
