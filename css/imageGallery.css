@@ -4,15 +4,26 @@
     set background-color to #d4d0c6;
     set background-image to "../img/backdrop.gif"
     set font-family to Georgia, "Times New Roman", serif;
-     */}
+     */
+     color: #665544;
+     background-color: #d4d0c6;
+     background-image: "../img/backdrop.gif";
+     font-family: Georgia, "Times New Roman", serif;
+
+    }
+
   .wrapper {
    /*
    set width to 720px.
    set margin to 0px auto;
     */
+    width: 720px;
+    margin: 0px auto;
   }
   .header {
-    /*set margin top 40px right 0px bottom 20px left 0px use Shorthand and align text*/
+    /*set margin top 40px right 0px bottom 20px left 0px use Shorthand and align text center*/
+    margin: 40px 0px 20px 0px;
+    text-align: center;
   }
   .entry {
     /*
